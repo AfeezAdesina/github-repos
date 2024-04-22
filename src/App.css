@@ -1,0 +1,81 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.navbar-header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  align-items: center;  
+  max-width: 1400px;
+  padding: 1em 3em;
+  }
+  .navbar-c{
+    display: flex;
+    gap: 1em;
+  
+  }
+.repo-card{
+  border-radius: 10px;
+  padding:1em;
+  border: 1px solid white;
+  max-width: 600px;
+  gap: 1rem;
+  margin: 2rem;
+}
+.repo-card:hover{
+  background-color: #1a1a1a;
+ transform: scale(1.1) ;
+}
+.search-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+
+}
+.search-area{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+gap: 1em;
+width: 700px;
+align-items: center;
+}
+.search{
+  width: 100px;
+}
+.create-panel{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2em;
+
+}
+.btn-head{
+  display: flex; 
+  gap: 1em;
+  text-align: center;
+  justify-content: center;
+}
+.btn{
+  padding: 0.5em 1em;
+  width: 200px;
+}
+.page{
+  background-color: red;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-top: 3em;
+  place-items: center;
+ 
+}
+.back-home{
+  margin-top: 2em;
+}

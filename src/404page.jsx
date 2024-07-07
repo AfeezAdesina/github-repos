@@ -8,10 +8,9 @@ function Page404() {
     return (
         <>
             <div className="page-head">
-                <div className="page">
-                    <img src={R} alt="logo-error" />
-                    <h1>404</h1>
-                    <p>Page Not Found</p>
+                <div>
+                    <img src={R} alt="logo-error" class="p-404p"/>
+                    <p style={{color:"red", fontSize:"50px", fontWeight:"bolder"}}>Page Not Found</p>
                 </div>
                 <Link to="/"><button className="btn back-home">Go Back to Home</button></Link>
             </div>

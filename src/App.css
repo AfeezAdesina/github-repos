@@ -79,15 +79,6 @@ width: 600px;
   align-items: center;
   flex-direction: column;
 }
-.page{
-  background-color: red;
-  width: 300px;
-  border-radius: 10px;
-  border: 1px solid white;
-  margin-top: 3em;
-  place-items: center;
- 
-}
 .back-home{
   margin-top: 2em;
 }
@@ -103,4 +94,7 @@ width: 600px;
   gap: 1em;
   justify-content: center;
   margin-top: 2em;
+}
+.p-404p{
+  width: 100%;
 }

@@ -4,6 +4,7 @@
   padding: 2rem;
   text-align: center;
 }
+
 .navbar-header{
   display: flex;
   justify-content: space-between;
@@ -21,7 +22,7 @@
   border-radius: 10px;
   padding:1em;
   border: 1px solid white;
-  max-width: 600px;
+  width: 600px;
   gap: 1rem;
   margin: 2rem;
 }
@@ -39,11 +40,17 @@
 }
 .search-area{
 display: flex;
-justify-content: space-between;
-flex-direction: row;
-gap: 1em;
-width: 700px;
+flex-direction: column;
 align-items: center;
+gap: 1em;
+width: 600px;
+}
+.search-area2{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 1em;
+width: 600px;
 }
 .search{
   width: 100px;
@@ -52,9 +59,9 @@ align-items: center;
   display: flex;
   flex-direction: column;
   gap: 1em;
-  justify-content: center;
-  align-content: center;
+  align-items: center;
   margin-top: 2em;
+  margin-bottom: 50px;
 
 }
 .btn-head{
@@ -67,6 +74,11 @@ align-items: center;
   padding: 0.5em 1em;
   width: 200px;
 }
+.page-head{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .page{
   background-color: red;
   width: 300px;
@@ -77,5 +89,18 @@ align-items: center;
  
 }
 .back-home{
+  margin-top: 2em;
+}
+
+.repo-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+.three-btn{
+  display: flex;
+  gap: 1em;
+  justify-content: center;
   margin-top: 2em;
 }

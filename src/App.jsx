@@ -23,7 +23,7 @@ function App() {
       >
         <Routes>
           <Route path="/" element={< Repos />} />
-          <Route path="/repo" element={<RepoDetails />} />
+          <Route path="/repo/:repoName" element={<RepoDetails />} />
           <Route path="*" element={<Fallback />} />
           <Route path="/CreateRepo" element={<CreateRepo />} />
           <Route path="/Page404" element={<Page404 />} />

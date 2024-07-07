@@ -16,7 +16,7 @@ function NavBar() {
     return (
         <div className='search-sec'>
             <h1>Afeez GitHub Repository</h1>
-            <form action="/" method="post" className='search-area'>
+            <form action="/" method="post" className='search-area2'>
                 <input type="text" name="search" placeholder="Search..." />
                 <button  className="search" type="submit" onClick={handleChange}>Search</button>
             </form>
